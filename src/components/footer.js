@@ -8,8 +8,8 @@ const Footer = ()=>{
             <h2>Informations &amp; Contacts:</h2>
             <div className='footer-body'>
               <div className='info'>
-                 <Link to='/FAQ' style={{textDecoration:'none'}}><h2>FAQ</h2></Link>
-                 <Link to='/commands' style={{textDecoration:'none'}}><h2>Commands</h2></Link>
+                 <Link to='/ainzooal/FAQ' style={{textDecoration:'none'}}><h2>FAQ</h2></Link>
+                 <Link to='/ainzooal/commands' style={{textDecoration:'none'}}><h2>Commands</h2></Link>
               </div>
               <span></span>
               <div className='socials'>

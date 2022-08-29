@@ -38,15 +38,15 @@ const Nav = ()=>{
             </div>
            <div className='phone-container'>        
             <div className={openphone?'open-phone':'close-phone'}>
-               <Link to='/' style={{textDecoration:'none'}}><h2>Home</h2></Link>
-               <Link to='/commands' style={{textDecoration:'none'}}><h2>Commands</h2></Link>
-               <Link to='/FAQ' style={{textDecoration:'none'}}><h2>FAQ</h2></Link>
+               <Link to='/ainzooal/' style={{textDecoration:'none'}}><h2>Home</h2></Link>
+               <Link to='/ainzooal/commands' style={{textDecoration:'none'}}><h2>Commands</h2></Link>
+               <Link to='/ainzooal/FAQ' style={{textDecoration:'none'}}><h2>FAQ</h2></Link>
             </div>
            </div>
             <div className={open?'open':'close'} styles={{display:open?'':styles.display}}>
-              <Link to='/' style={{textDecoration:'none'}}><h2>Home</h2></Link>
-              <Link to='/commands' style={{textDecoration:'none'}}> <h2>Commands</h2></Link>
-              <Link to='/FAQ' style={{textDecoration:'none'}}><h2>FAQ</h2></Link>
+              <Link to='/ainzooal/' style={{textDecoration:'none'}}><h2>Home</h2></Link>
+              <Link to='/ainzooal/commands' style={{textDecoration:'none'}}> <h2>Commands</h2></Link>
+              <Link to='/ainzooal/FAQ' style={{textDecoration:'none'}}><h2>FAQ</h2></Link>
             </div>
            
           </div>
