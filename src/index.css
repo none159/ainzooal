@@ -358,7 +358,7 @@ body {
 }
 footer {
   position: relative;
-  top: 600px;
+  top: 100vh;
   padding: 20px;
   box-shadow: 0 0 20px #222222;
   background: linear-gradient(to top, #4b9cd3 50%, #222222);
