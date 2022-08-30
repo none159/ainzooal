@@ -604,7 +604,8 @@ footer {
     gap: 50px;
     z-index: 1;
     max-height: fit-content;
-    width: 90vh;
+    width: max-content;
+    text-align: center;
     opacity: 90%;
     align-items: center;
     box-shadow: 0 0 10px black;
