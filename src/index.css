@@ -524,7 +524,7 @@ footer {
   color: white;
   font-family: sans-serif;
 }
-@media (max-width: 509px) {
+@media (max-width: 400px) {
   .arrow {
     display: none;
   }
@@ -589,7 +589,7 @@ footer {
     display: flex;
     position: relative;
     justify-content: space-between;
-    gap: 300px;
+    gap: 200px;
     margin: 10px;
   }
   .close-phone {
