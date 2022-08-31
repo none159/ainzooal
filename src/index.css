@@ -524,7 +524,7 @@ footer {
   color: white;
   font-family: sans-serif;
 }
-@media (max-width: 400px) {
+@media (max-width: 509px) {
   .arrow {
     display: none;
   }
@@ -536,6 +536,12 @@ footer {
     position: relative;
     top: 230px;
     overflow: hidden;
+  }
+  .boxes-container {
+    pointer-events: none;
+  }
+  .features {
+    pointer-events: none;
   }
   #nav-icon2 {
     width: 50px;
@@ -603,7 +609,7 @@ footer {
     flex-direction: column;
     gap: 50px;
     z-index: 1;
-    width: 300px;
+    width: 320px;
     max-height: fit-content;
     text-align: center;
     opacity: 90%;
